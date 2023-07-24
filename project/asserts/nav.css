@@ -1,0 +1,26 @@
+h2{
+	text-align: center;text-transform: capitalize;
+
+}
+ul {
+	background:rgba(0,0,0,0.3);
+	padding:5px;
+	text-align: left;
+}
+li{
+	margin:18px;
+	display:inline;
+	padding:5px;
+	
+}
+a{
+	
+	text-transform: uppercase;
+	color:white;
+	text-decoration: underline;
+}
+
+li:hover{
+	background:#047289;
+}
+

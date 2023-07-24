@@ -1,0 +1,26 @@
+body{
+	background-image:url('internship-pic-1.JPG'); 
+	font-family: monospace;
+	color:white;
+	background-size:cover;
+	background-attachment: fixed;
+	height:auto;
+}
+table{margin-left: auto;margin-right: auto;margin-bottom: auto;}
+tbody tr{background-color:  #ebedef;width:70%;height: 100%;
+border-bottom: 1px solid white;border-spacing:10px;}
+tbody tr:nth-child(odd){background-color:#c7cbd1}
+td{color:black;font-family: monospace;
+	font-size: 14px;font-weight: bold;text-align: right;padding: 1em;}
+	th{color:black;text-decoration: underline;font-family: monospace;
+	font-size: 16px;padding: 1em;text-align: center}
+	
+h3{color:#004040 ;
+	font-style: initial;
+	font-weight: bold;
+	font-family: cursive;text-align:left;
+	font-size: 30px;
+	text-transform: capitalize;
+	text-decoration: underline;
+
+}

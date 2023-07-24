@@ -1,0 +1,121 @@
+body{
+	background-image:url('internship-pic-1.JPG'); 
+	font-family: monospace;
+	color:white;
+	background-size:cover;
+	background-attachment: fixed;
+	height:auto;
+}
+
+fieldset{opacity: 2;
+	width:50%;
+	margin:20px auto;
+	padding: 10px;
+	border-color: #aaaeb4;
+	
+}
+legend{
+	border:1.5px solid white;
+	border-radius: 13px;
+	padding:5px;
+	text-align: center;
+	background: #047289;
+	width:35%;
+	margin:0px auto;
+	display: inline;font-size: 22px;
+	text-decoration: underline;
+
+}
+
+label{
+	padding:5px;
+	margin:10px;
+	display: block;
+	color:black;
+	text-transform: capitalize;
+	font-weight: bold;font-size: 22px;
+	text-decoration: unset;
+}
+  input[type="email"],input[type="password"], input[type="text"], 
+ input[type="number"],input[type="tel"]{
+ 	display: block;
+ 	padding:5px;
+ 	margin:5px;
+	border:none;
+	border-bottom:1px solid black;
+	outline: none;
+	width:95%;
+	background-color: transparent;
+	cursor: text;
+}
+input[type="textarea"]{
+	resize: none;
+}
+::-webkit-input-placeholder{
+ 		text-transform: none;
+ 		font-family: monospace;
+ 		color:black;font-size: 20px;
+}
+select{
+	display: block;
+ 	padding:5px;
+	border:none;
+	border-bottom:1px solid black;
+	outline: none;
+	background-color:transparent;
+	font-family: monospace;font-size: 20px;
+ }
+ a{
+	text-decoration: underline;
+	color:#047289;
+	text-transform: capitalize;font-size: 18px;font-weight: bold;
+}
+a:hover{font-size:20px;}
+button{
+	border:1px solid #047289;
+	border-radius:15px;
+	display: block;
+	width:35%;
+	margin:5px auto;
+	padding: 5px;
+	background:#047289;
+	cursor:pointer;
+	font-family: monospace;
+	text-transform: capitalize;
+	color: white;font-size: 18px;font-weight: bold;
+}
+button:hover{font-size:19px;}
+.high{text-decoration: underline;
+	color:white;
+	text-transform: capitalize;font-size: 18px;font-weight: bold;
+}
+.high:hover{font-size:20px;}
+.second{text-decoration: underline;
+	color:#047289;
+	text-transform: capitalize;font-size: 18px;font-weight: bold;
+}
+.second:hover{font-size:20px;}
+h1{
+	color: black;
+	font-family: serif;text-align: center;
+	font-size: 80px;
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+h2{
+	color:#004040 ;
+	font-style: initial;
+	font-weight: bold;
+	font-family: cursive;text-align: center;
+	font-size: 70px;
+	text-transform: capitalize;
+}
+h3{color:#004040 ;
+	font-style: initial;
+	font-weight: bold;
+	font-family: cursive;text-align:left;
+	font-size: 30px;
+	text-transform: capitalize;
+	text-decoration: underline;
+
+}
